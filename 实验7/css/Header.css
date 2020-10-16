@@ -1,0 +1,75 @@
+* {
+    border: 0px;
+    margin: 0px;
+}
+
+.head {
+	background-color: rgba(0, 170, 255, 0.8);
+    height: 44px;
+    width: 100%;
+    position: fixed;
+	z-index: 5;
+    display: block;
+}
+
+.head-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-left: 18%;
+    margin-right: 18%;
+    height: 44px;
+    line-height: 44px;
+}
+
+.head-list .item-list {
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.head-list .link {
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    text-decoration: none;
+    opacity: 0.8;
+    display: block;
+}
+
+.head-list .link-apple {
+    background-size: 16px 44px;
+    background-repeat: no-repeat;
+    background-image: url("../svg/header-logo.svg");
+    background-position: center center;
+    width: 16px;
+}
+
+.head-list .link-support {
+    background-size: 46px 44px;
+    background-repeat: no-repeat;
+    background-image: url("../svg/header-support.svg");
+    background-position: center center;
+    background-origin: content-box;
+    background-size: cover;
+    width: 3.68571em;
+    max-width: 78.2px;
+}
+
+.head-list .link-search {
+    background-size: 18px 80px;
+    background-repeat: no-repeat;
+    background-image: url("../svg/header-search.svg");
+    width: 18px;
+}
+
+.head-list .link-bag {
+    background-size: 17px 44px;
+    background-repeat: no-repeat;
+    background-image: url("../svg/header-bag.svg");
+    background-position: center center;
+    height: 44px;
+    width: 17px;
+}

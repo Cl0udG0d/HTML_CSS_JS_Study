@@ -1,0 +1,447 @@
+.content-1 .content-1-p {
+    position: relative;
+    padding-top: 40px;
+    height: 44px;
+    line-height: 44px;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+}
+
+.content-1 .content-1-p p>a {
+    text-decoration: none;
+    color: #06c;
+}
+
+.content-1 .content-1-p p>a:hover {
+    text-decoration: underline;
+}
+
+.unit-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    z-index: 3;
+}
+
+.cta-link>a {
+    text-decoration: none;
+    position: relative;
+    z-index: 4;
+    pointer-events: all;
+    color: #2997ff;
+}
+
+.watch-series-6 {
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+
+.unit-image {
+    z-index: 1;
+    position: absolute;
+    left: calc(50% + 0px);
+    right: auto;
+    bottom: 0px;
+    top: auto;
+    -webkit-transform: translatex(-50%);
+    transform: translatex(-50%);
+}
+
+.cta-link {
+    margin-top: 14px;
+    text-align: center;
+}
+
+.watch-series-6 .unit-image {
+    width: 228px;
+    height: 366px;
+    background-size: 228px 367px;
+    background-repeat: no-repeat;
+    background-image: url("../image/unit-image/1.jpg");
+}
+
+.watch-series-6 .unit-copy h2 {
+    width: 100%;
+    height: 64px;
+    background-size: 166px 64px;
+    background-repeat: no-repeat;
+    background-image: url("../image/unit-copy/1.png");
+    background-position: center;
+}
+
+.watch-series-6 .unit-copy h3 {
+    margin-top: 15px;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+
+.watch-series-6 .unit-wrapper {
+    padding-top: 34px;
+}
+
+.watch-series-6 .cta-link>a {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.watch-series-6 #cta-link-mai {
+    margin-left: 35px;
+}
+
+.cta-link>a:hover {
+    text-decoration: underline;
+}
+
+.cta-link>a::after {
+    content: '>';
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.cta-link>a {
+    content: '>';
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.ipad-air {
+    width: 100%;
+    padding-top: 40px;
+}
+
+.ipad-air .unit-copy span {
+    width: 100%;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #bf4800;
+    text-align: center;
+    display: inline-block;
+}
+
+.ipad-air .unit-copy h2 {
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    text-align: center;
+}
+
+.ipad-air .unit-copy h3 {
+    margin-top: 8px;
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 300;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.ipad-air .cta-link a {
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 50px;
+    left: -20px;
+}
+
+.ipad-air .unit-image {
+    position: relative;
+    z-index: 4;
+    width: 1155px;
+    height: 387px;
+    background-size: 1155px 387px;
+    background-repeat: no-repeat;
+    background-image: url("../image/unit-image/2.jpg");
+}
+
+.watch-se {
+    height: 580px;
+    width: 100%;
+    padding-top: 40px;
+    position: relative;
+    z-index: 4;
+}
+
+.watch-se .unit-copy h2 {
+    width: 100%;
+    height: 64px;
+    background-size: 167px 64px;
+    background-repeat: no-repeat;
+    background-image: url("../image/unit-copy/2.png");
+    background-position: center;
+}
+
+.watch-se .unit-copy h3 {
+    margin-top: 20px;
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 300;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.watch-se .cta-link a {
+    font-size: 21px;
+    font-weight: 400;
+    left: -15px;
+    margin-left: 50px;
+}
+
+.watch-se .unit-image {
+    width: 342px;
+    height: 370px;
+    bottom: 10px;
+    background-size: 342px 370px;
+    background-repeat: no-repeat;
+    background-image: url("../image/unit-image/3.jpg");
+}
+
+.box {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.flexbox {
+    margin: 5px;
+    height: 580px;
+    width: 49%;
+    position: relative;
+    z-index: 4;
+}
+
+.ipad .unit-image {
+    width: 388px;
+    height: 580px;
+    background-size: 388px 580px;
+    background-repeat: no-repeat;
+    background-image: url("../image/unit-image/4.jpg");
+}
+
+.ipad .unit-copy h4 {
+    width: 100%;
+    height: 98px;
+    background-size: 119px 98px;
+    background-repeat: no-repeat;
+    background-image: url("../image/unit-copy/3.png");
+    background-position: center;
+    position: relative;
+    z-index: 2;
+    top: 370px;
+}
+
+.ipad .unit-copy h5 {
+    font-size: 18px;
+    text-align: center;
+    top: 380px;
+    font-weight: 400;
+    position: relative;
+    z-index: 2;
+}
+
+.ipad .cta-link {
+    position: relative;
+    top: 380px;
+}
+
+.ipad .cta-link a {
+    margin-left: 10px;
+}
+
+.ios-14 .unit-copy h2 {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    margin-top: 53px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.ios-14 .unit-copy h4 {
+    font-size: 20px;
+    line-height: 1.2381;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 5px;
+    position: relative;
+    left: 5px;
+    z-index: 2;
+}
+
+.ios-14 .unit-image {
+    width: 100%;
+    height: 580px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("../image/unit-image/5.jpg");
+}
+
+.ios-14 .cta-link a {
+    font-size: 15px;
+    left: 5px;
+}
+
+.ipados-14 .unit-copy h2 {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    margin-top: 53px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.ipados-14 .unit-copy h4 {
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    margin-top: 4px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.ipados-14 .unit-image {
+    width: 100%;
+    height: 580px;
+    background-size: 1262px 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../image/unit-image/6.jpg");
+}
+
+.watchos-7 .unit-copy h2 {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    margin-top: 53px;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.watchos-7 .unit-copy h4 {
+    font-size: 20px;
+    line-height: 1.2381;
+    font-weight: 400;
+    margin-top: 4px;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.watchos-7 .unit-image {
+    width: 100%;
+    height: 580px;
+    background-size: 1262px 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../image/unit-image/7.jpg");
+}
+
+.back-to-school {
+    background-color: rgb(241, 241, 243);
+}
+
+.back-to-school .unit-copy h2 {
+    font-size: 38px;
+    line-height: 1.1;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.back-to-school .unit-copy h4 {
+    font-size: 20px;
+    line-height: 1.2381;
+    font-weight: 400;
+    margin-top: 4px;
+    text-align: center;
+    position: relative;
+    z-index: 4;
+}
+
+.back-to-school .unit-image {
+    width: 706px;
+    height: 385px;
+    background-size: 706px 385px;
+    background-repeat: no-repeat;
+    background-image: url("../image/unit-image/8.jpg");
+}
+
+.back-to-school span {
+    width: 100%;
+    font-size: 12px;
+    line-height: 1.4;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    color: #f56300;
+    text-align: center;
+    display: inline-block;
+}
+
+.apple-music .unit-copy h4 {
+    width: 100%;
+    height: 31px;
+    background-size: 127px 31px;
+    background-repeat: no-repeat;
+    background-image: url("../image/unit-copy/4.png");
+    background-position: center;
+    position: relative;
+    z-index: 2;
+    top: 360px;
+}
+
+.apple-music .unit-copy h5 {
+    font-size: 19px;
+    line-height: 1.2381;
+    font-weight: 300;
+    margin-top: 4px;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    top: 370px;
+}
+
+.apple-music .unit-image {
+    width: 100%;
+    height: 580px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("../image/unit-image/9.jpg");
+}
+
+.apple-music .cta-link>a {
+    top: 365px;
+    margin-left: 10px;
+    color: white;
+}
+
+.apple-music .icon-wrapper {
+    width: 100%;
+    height: 37px;
+    background-size: 37px 37px;
+    background-repeat: no-repeat;
+    background-image: url("../image/unit-copy/5.png");
+    background-position: center;
+    position: relative;
+    top: 380px;
+    left: -20px;
+    z-index: 2;
+    display: inline-block;
+    margin-left: 15px;
+}

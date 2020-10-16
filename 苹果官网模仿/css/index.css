@@ -1,0 +1,122 @@
+*{
+    margin:0px 0px;     /* 到边框的距离 */
+    padding: 0;
+}
+
+body {
+    margin-top: -1px;
+}
+.nav-header{
+    position:fixed;
+    width: 100%;
+}
+.nav-wrapper{
+    background-color: #a8a8aa;
+    text-decoration: none;
+    width: 100%;
+    margin: 0 auto;
+}
+.nav-text{
+    color: white;
+    display: block;
+    line-height: 40px;
+    overflow: hidden;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    text-align: right;
+    max-width: 976px;
+    margin: 0 auto;
+}
+.nav-select{
+    margin:0 auto;
+    text-align:center;
+    background: black;
+    height: 40px;
+}
+.nav-ul {
+    list-style-type:none;
+    padding:0;
+    width: 100%;
+    overflow:hidden;
+}
+
+.nav-ul li {
+    color: #F5F5F7;
+    line-height: 3.14286;
+    font-family:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial";
+    width: 170px;
+    font-size:14px;
+    float:left;
+}
+
+/* .apple-logo-1 img{
+    display: block;
+    width: 100%;
+    height: auto;
+    background-size: 1708px 1104px;
+    background-repeat: no-repeat;
+} */
+a:link,a:visited ,a:hover {
+    text-decoration: none;  
+    color: #F5F5F7;
+}   
+.modele-content-1 a{
+    color: blue;
+}
+.apple-logo-2{
+    text-align:center;
+}
+.apple-logo-2 img{
+    width: 1020px;
+    height: 450px;
+}
+.apple-logo-3 {
+    text-align:center;
+    background-color: rgb(245, 245, 247);
+}
+.apple-logo-3 img{
+    width: 1020px;
+    height:900px;
+}
+
+.apple-logo-4{
+    background-color: rgb(245, 245, 247);
+    text-align:center;
+}
+.apple-logo-4 img{
+    width: 500px;
+    height:500px;
+}
+
+.apple-logo-5{
+    background-size: 100%,100%;
+    background-color: rgb(245, 245, 247);
+}
+.apple-logo-5 img{
+    width: 1020px;
+    height:450;
+    float:right;
+}
+
+.apple-logo-1{
+    width: 1708px ;
+    height: 800px;
+    background-size: 1708px 1500px;
+    background-repeat: no-repeat;
+    background-image: url("../images/logo1.jpg");
+}
+/* .apple-logo-1-text h2{
+    color: orange;
+    text-align:center;
+    font-size: 20px;
+    line-height: 40;
+    font-weight: 600;
+} */
+.apple-logo-1-text h3{
+    color: orange;
+    text-align:center;
+    font-size: 20px;
+    line-height: 60;
+    font-weight: 600;
+    overflow: hidden;
+}
