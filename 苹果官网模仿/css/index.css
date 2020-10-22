@@ -34,19 +34,20 @@ body {
     height: 40px;
 }
 .nav-ul {
+    display: flex;
     list-style-type:none;
     padding:0;
-    width: 100%;
-    overflow:hidden;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .nav-ul li {
     color: #F5F5F7;
     line-height: 3.14286;
     font-family:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial";
-    width: 170px;
-    font-size:14px;
-    float:left;
+    font-weight: 400;
+    font-size: 0.9em;
+    flex: 1;
 }
 
 /* .apple-logo-1 img{
@@ -104,6 +105,20 @@ a:link,a:visited ,a:hover {
     background-size: 1708px 1500px;
     background-repeat: no-repeat;
     background-image: url("../images/logo1.jpg");
+}
+
+.par-box {
+    height: -20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.images {
+    flex:1;
 }
 /* .apple-logo-1-text h2{
     color: orange;
