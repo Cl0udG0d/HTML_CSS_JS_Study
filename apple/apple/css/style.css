@@ -187,10 +187,7 @@ section {
 }
 .container4 .feature1 .item1 {
   background-image: url("../img/4.jpg");
-  position: relative;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 .container4 .feature1 .item1 .context {
