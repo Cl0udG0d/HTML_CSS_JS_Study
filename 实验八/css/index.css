@@ -1,0 +1,28 @@
+*{
+    margin:0px 0px;     /* 到边框的距离 */
+    padding: 0;
+}
+
+body {
+    margin-top: -1px;
+}
+.box-1 {
+    height: 100px;
+    width: 100%;
+}
+.box-1 .box-1-p1{
+    float: left;
+    margin-left: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 50%;
+}
+.box-1 .box-1-p2{
+    float: left;
+    margin-left: 100px;
+    height: 100px;
+    width: 300px;
+    background-color: black;
+    border-radius: 2em;
+}
