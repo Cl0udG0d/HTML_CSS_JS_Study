@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="libs/glide/glide.core.min.css">
+    <link rel="stylesheet" href="libs/glide/glide.theme.min.css">
+    <link rel="stylesheet" href="{{url_for('libs',filename='glide/glide.core.min.css')}}" />
+    <link rel="stylesheet" href="{{url_for('libs',filename='glide/glide.theme.min.css')}}" />
+    <link rel="stylesheet" href="{{url_for('css',filename='font-awesome.min.css')}}" />
+    <link rel="stylesheet" href="{{url_for(filename='style.css')}}" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.1.1/Chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">不董音乐</div>
+        <nav>
+            <a href="#home">首页</a>
+            <a href="#science">近期循环</a>
+            <a href="#showcases">歌单分类</a>
+            <a href="#guide">音乐指南</a>
+            <a href="#respect">收听排行</a>
+            <a href="#improve-self">❤</a>
+            <i class="fa fa-search"></i>
+        </nav>
+        <div class="burger">
+            <div class="burger-line1"></div>
+            <div class="burger-line2"></div>
+            <div class="burger-line3"></div>
+        </div>
+    </header>
+    <div id="home" class="glide">
+        <div class="gilde__track" data-glide-el="track">
+            <div class="glide__slides">
+                <div class="glide__slide">
+                    <div class="slide-caption">
+                        <h1>音乐的意义？</h1>
+                        <h3>大概就是在戴上耳机的瞬间<br />整个世界从枯燥单调，变成了五彩缤纷的梦幻乡</h3>
+                        <button class="explore-btn">探索更多</button>
+                    </div>
+                    <div class="backdrop"></div>
+                    <img src="images/03.jpg" alt="抗疫" />
+                </div>
+                <div class="glide__slide">
+                    <div class="slide-caption">
+                        <h1>音乐的力量？</h1>
+                        <h3 style="white-space: nowrap;">有的歌曲在不经意间就直达心底，<br />让你发现一个从没意识到的自己，可以无视外界的悲喜</h3>
+                        <button class="explore-btn">探索更多</button>
+                    </div>
+                    <div class="backdrop"></div>
+                    <img src="images/02.jpg" alt="抗疫" />
+                </div>
+                <div class="glide__slide">
+                    <div class="slide-caption left">
+
+                        <h1 class="text">戴上耳机</h1>
+                        <h3 class="text">Nobody can go back and start a new beginning, but anyone can start today and
+                            make a new ending.—Maria Robinson
+                        </h3>
+                        <h5 style="position: relative;top:-25px;font-size: 12px;font-weight: 600;" class="text">
+                        </h5>
+                        <button class="explore-btn" style="opacity: 1;">探索更多</button>
+                    </div>
+                    <img src="images/14.jpg" alt="抗疫" />
+                    <!-- <video src="videos/1.mp4" muted autoplay loop></video> -->
+                </div>
+            </div>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                < </button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                        >
+                    </button>
+        </div>
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+            <button class="glide__bullet" data-glide-dir="=0"></button>
+            <button class="glide__bullet" data-glide-dir="=1"></button>
+            <button class="glide__bullet" data-glide-dir="=2"></button>
+        </div>
+    </div>
+    <div class="content-wrapper">
+        <section id="science" class="science">
+            <h2 class="title1">近期循环</h2>
+            <p class="intro">音乐舞蹈是从未停止对美好事物追求的脚步</p>
+            <div class="features">
+                <div class="feature">
+                    <img src="images/04.jpg">
+                </div>
+                <div class="feature">
+                    <img src="images/05.jpg">
+                </div>
+                <div class="feature">
+                    <img src="images/06.jpg">
+                </div>
+            </div>
+        </section>
+        <section id="showcases" class="showcases section-bg">
+            <h2 class="title1">歌单分类</h2>
+            <div class="filter-btns">
+                <button class="filter-btn active" data-filter="*">全部</button>
+                <button class="filter-btn" data-filter=".摇滚">摇滚</button>
+                <button class="filter-btn" data-filter=".民谣">民谣</button>
+                <button class="filter-btn" data-filter=".说唱">说唱</button>
+                <button class="filter-btn" data-filter=".阿卡贝拉">阿卡贝拉</button>
+                <button class="filter-btn" data-filter=".Funk">Funk</button>
+            </div>
+            <div class="cases">
+                <div class="case-item 摇滚 民谣 说唱">
+                    <img src="images/30.jpg" />
+                    <div class="intro1">
+                        <h2 class="case-title">音乐一</h2>
+                        <p>简介xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="case-item 民谣 阿卡贝拉">
+                    <img src="images/22.jpg" />
+                    <div class="intro1">
+                        <h2 class="case-title">音乐一</h2>
+                        <p>简介xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+                        </p>
+                    </div>
+                </div>
+                <div class="case-item 摇滚 说唱">
+                    <img src="images/21.jpg" />
+                    <div class="intro1">
+                        <h2 class="case-title">音乐一</h2>
+                        <p>简介xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+                        </p>
+                    </div>
+                </div>
+                <div class="case-item 阿卡贝拉 Funk">
+                    <img src="images/23.jpg" />
+                    <div class="intro1">
+                        <h2 class="case-title">音乐一</h2>
+                        <p>简介xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+                        </p>
+                    </div>
+                </div>
+                <div class="case-item Funk 说唱">
+                    <img src="images/25.jpg" />
+                    <div class="intro1">
+                        <h2 class="case-title">音乐一</h2>
+                        <p>简介xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+                        </p>
+                    </div>
+                </div>
+                <div class="case-item 民谣">
+                    <img src="images/33.jpg" />
+                    <div class="intro1">
+                        <h2 class="case-title">音乐一</h2>
+                        <p>简介xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class="case-item 说唱 摇滚">
+                    <img src="images/28.jpg" />
+                    <div class="intro1">
+                        <h2 class="case-title">音乐一</h2>
+                        <p>简介xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+                        </p>
+                    </div>
+                </div>
+                <div class="case-item 摇滚 Funk">
+                    <img src="images/29.jpg" />
+                    <div class="intro1">
+                        <h2 class="case-title">音乐一</h2>
+                        <p>简介xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+                        </p>
+                    </div>
+                </div>
+                <div class="case-item  民谣 阿卡贝拉">
+                    <img src="images/20.jpg" />
+                    <div class="intro1">
+                        <h2 class="case-title">音乐一</h2>
+                        <p>简介xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class="case-item 阿卡贝拉 Funk">
+                    <img src="images/31.jpg" />
+                    <div class="intro1">
+                        <h2 class="case-title">音乐一</h2>
+                        <p>简介xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                        </p>
+                    </div>
+                </div>
+                <div class="case-item 民谣 阿卡贝拉">
+                    <img src="images/32.jpg" />
+                    <div class="intro1">
+                        <h2 class="case-title">音乐一</h2>
+                        <p>简介xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+                        </p>
+                    </div>
+                </div>
+                <div class="case-item 摇滚 说唱">
+                    <img src="images/27.jpg" />
+                    <div class="intro1">
+                        <h2 class="case-title">音乐一</h2>
+                        <p>简介xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="respect" class="respect section-bg">
+            <h2 class="title1">收听排行</h2>
+            <p class="intro">好的音乐使你感同身受并越发地惊喜</p>
+            <div class="respect-heros">
+                <div class="heros">
+                    <div class="hero hov">
+                        <img src="images/07.jpg">
+                        <h2>TOP排行一--陈鸿宇</h2>
+                    </div>
+                    <div class="hero hov">
+                        <img src="images/08.jpg">
+                        <h2>TOP排行二--Taylor Swift</h2>
+                    </div>
+                    <div class="hero hov">
+                        <img src="images/11.jpg">
+                        <h2>TOP排行三--尧十三</h2>
+
+                    </div>
+                    <div class="hero hov">
+                        <img src="images/12.jpg">
+                        <h2>TOP排行四--陈奕迅</h2>
+                    </div>
+                    <div class="hero hov">
+                        <img src="images/13.jpg">
+                        <h2>TOP排行五--赵雷</h2>
+                    </div>
+                    <div class="hero hov">
+                        <img src="images/10.jpg">
+                        <h2>TOP排行六--bridge</h2>
+                    </div>
+                </div>
+                <div class="statistics">
+                    <div class="context">不董音乐周/日排行榜</div>
+                    <div class="bar-graph">
+                        <h5 class="bar-title">每周统计</h5>
+                        <canvas id="myChart" width="450" height="350"></canvas>
+                    </div>
+                    <div class="curve-graph">
+                        <h5 class="bar-title">每日排行</h5>
+                        <canvas id="myCurveChart" width="450" height="350"></canvas>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+    <footer>
+        <div class="footer-menus">
+            <div class="contact-us">
+                <p class="menu-title">联系我们</p>
+                <p>电话：+18888888888</p>
+                <p>微信：vx1868686868</p>
+                <p>Q Q: 1868868688686</p>
+                <p>电子邮箱：yqweb@qq.com</p>
+            </div>
+            <div class="service-menu footer-menu">
+                <p class="menu-title">近期循环</p>
+                <ul class="menu-items">
+                    <li><a href="#">歌曲循环</a></li>
+                    <li><a href="#">歌手循环</a></li>
+                    <li><a href="#">播放统计</a></li>
+                    <li><a href="#">mv统计</a></li>
+                </ul>
+            </div>
+            <div class="service-menu footer-menu">
+                <p class="menu-title">歌单分类</p>
+                <ul class="menu-items">
+                    <li><a href="#">地域分类</a></li>
+                    <li><a href="#">曲种分类</a></li>
+                    <li><a href="#">歌手分类</a></li>
+                    <li><a href="#">曲风分类</a></li>
+                </ul>
+            </div>
+            <div class="service-menu footer-menu">
+                <p class="menu-title">收听排行</p>
+                <ul class="menu-items">
+                    <li><a href="#">歌手排行</a></li>
+                    <li><a href="#">类别排行</a></li>
+                    <li><a href="#">总排行</a></li>
+                    <li><a href="#">日排行</a></li>
+                </ul>
+            </div>
+            <div class="service-menu footer-menu">
+                <p class="menu-title">帮助与支持</p>
+                <ul class="menu-items">
+                    <li><a href="#">帮助中心</a></li>
+                    <li><a href="#">联系客服</a></li>
+                    <li><a href="#">文档资源</a></li>
+                </ul>
+            </div>
+            <p class="rights">& copy;2020 CQUT--cheerddd 版权所有</p>
+            <div class="scrollToTop">
+                <a href="#home"><i class="fa fa-chevron-up"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // 柱状图部分
+        var ctx = document.getElementById("myChart").getContext("2d");
+        var data = {
+            /// 表现在X轴上的数据，数组形式
+            labels: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            /// 第一条线
+            datasets: [
+                {
+                    /// 曲线的填充颜色
+                    fillColor: " rgb(86, 86, 240)",
+                    /// 填充块的边框线的颜色
+                    strokeColor: " rgb(22, 122, 253);",
+                    /// 表示数据的圆圈的颜色
+                    pointColor: " rgb(86, 86, 240)",
+                    /// 表示数据的圆圈的边的颜色
+                    pointStrokeColor: "#fff",
+                    data: [76, 65, 59, 44, 37, 28, 21]
+                },
+                /// 第二条线
+                {
+
+                    /// 曲线的填充颜色
+                    fillColor: "#d3d3d3",
+                    /// 填充块的边框线的颜色
+                    strokeColor: "rgba(220,220,220,1)",
+                    /// 表示数据的圆圈的颜色
+                    pointColor: "rgba(220,220,220,1)",
+                    /// 表示数据的圆圈的边的颜色
+                    pointStrokeColor: "#fff",
+                    data: [96, 68, 58, 56, 32, 43, 27]
+
+                }
+            ]
+        }
+        var options = {
+            scaleFontStyle: "normal"
+        }
+        //生成柱状图
+        new Chart(ctx).Bar(data);
+
+
+        // 折线图部分
+        var ctx = document.getElementById("myCurveChart").getContext("2d");
+        var data = {
+            /// 表现在X轴上的数据，数组形式
+            labels: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            /// 第一条线
+            datasets: [
+                {
+                    /// 曲线的填充颜色
+                    fillColor: " #f8f8ff",
+                    /// 填充块的边框线的颜色
+                    strokeColor: " rgb(86, 86, 240)",
+                    /// 表示数据的圆圈的颜色
+                    pointColor: " rgb(86, 86, 240)",
+                    /// 表示数据的圆圈的边的颜色
+                    pointStrokeColor: "#fff",
+                    data: [38, 46, 57, 61, 69, 72, 88]
+                },
+                /// 第二条线
+                {
+                    /// 曲线的填充颜色
+                    fillColor: "#e3e3e3",
+                    /// 填充块的边框线的颜色
+                    strokeColor: "rgba(220,220,220,1)",
+                    /// 表示数据的圆圈的颜色
+                    pointColor: "rgba(220,220,220,1)",
+                    /// 表示数据的圆圈的边的颜色
+                    pointStrokeColor: "#fff",
+                    data: [27, 31, 36, 45, 51, 44, 66]
+                }
+            ]
+        }
+        var options = {
+            scaleFontStyle: "normal"
+        }
+        new Chart(ctx).Line(data, options);
+    </script>
+    <script src="libs/anime/anime.min.js"></script>
+    <script src="libs/glide/glide.min.js"></script>
+    <script src="libs/isotope/isotope.pkgd.min.js"></script>
+    <script src="libs/smooth-scroll/smooth-scroll.polyfills.js"></script>
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>
