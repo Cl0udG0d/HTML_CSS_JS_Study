@@ -1,0 +1,19 @@
+*{
+    margin:0px 0px;     /* 到边框的距离 */
+    padding: 0;
+}
+
+body {
+    margin-top: -1px;
+}
+
+.test-box{
+    height: 100%;
+    width: 100%;
+}
+.test-box-1{
+    height: 626px;
+    width: 100%;
+    background-position: top center;
+    background-image:url("../images/1.jpg");
+}

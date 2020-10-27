@@ -1,0 +1,267 @@
+@charset "utf-8";
+.all
+{
+	background:url(%E8%83%8C%E6%99%AF.png);
+
+}
+.plcall/*整体框架*/
+{
+	
+	width: 1200px;
+    min-height: 700px;
+    height: 3000px;
+    margin: 0 auto;
+    background-color:#fff;
+    border: 1px solid #d3d3d3;
+	border-width: 0 1px;
+}
+
+
+
+.m-back/*回到顶部滑块*/
+ {
+    display: block;
+    position: fixed;
+    text-indent: -9999px;
+    left: 50%;
+    margin-left: 650px;
+    bottom: 160px;
+    width: 49px;
+    height: 44px;
+	background:url(%E6%8E%A8%E8%8D%90%E6%AD%8C%E5%8D%95%E5%9B%9E%E5%88%B0%E9%A1%B6%E9%83%A8.png) no-repeat 0 9999px;
+    background-position: -265px -47px;
+}
+.button1 {
+  display: inline-block;
+  padding: 15px 25px;
+  margin-left:10px;
+  font-size: 16px;
+  width: 250px;
+  cursor: pointer;
+  text-align: center;   
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #008CBA;;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button1:hover {background-color: #3e8e41}
+
+.button1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 8px #666;
+  transform: translateY(4px);
+}
+
+
+.lt
+{
+	margin:0 auto;
+	}
+	.demo{
+		padding: 2em 0;
+		background: #fff;
+	}
+	a:hover,a:focus{
+		text-decoration: none;
+		outline: none;
+	}
+	#accordion:before{
+		content: "";
+		width: 1px;
+		height: 80%;
+		background: #550527;
+		position: absolute;
+		top: 20px;
+		left: 24px;
+		bottom: 20px;
+	}
+	#accordion .panel{
+		border: none;
+		border-radius: 0;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+		margin: 0 0 12px 50px;
+		position: relative;
+	}
+	#accordion .panel:before{
+		content: "";
+		width: 2px;
+		height: 100%;
+		background: linear-gradient(to bottom, #688e26 0%,#ff816a 100%);
+		position: absolute;
+		top: 0;
+		left: -2px;
+	}
+	#accordion .panel-heading{
+		padding: 0;
+		background: #fff;
+		position: relative;
+	}
+	#accordion .panel-heading:before{
+		content: "";
+		width: 15px;
+		height: 15px;
+		border-radius: 50px;
+		background: #fff;
+		border: 1px solid #550527;
+		position: absolute;
+		top: 50%;
+		left: -48px;
+		transform: translateY(-50%);
+	}
+	#accordion .panel-title a{
+		display: block;
+		padding: 15px 55px 15px 30px;
+		font-size: 20px;
+		font-weight: 600;
+		color: #550527;
+		border: none;
+		margin: 0;
+		position: relative;
+	}
+	#accordion .panel-title a:before,
+	#accordion .panel-title a.collapsed:before{
+		content: "\f068";
+		font-family: fontawesome;
+		width: 25px;
+		height: 25px;
+		line-height: 25px;
+		border-radius: 50%;
+		font-size: 15px;
+		font-weight: normal;
+		color: #688e26;
+		text-align: center;
+		border: 1px solid #688e26;
+		position: absolute;
+		top: 50%;
+		right: 25px;
+		transform: translateY(-50%);
+		transition: all 0.5s ease 0s;
+	}
+	#accordion .panel-title a.collapsed:before{ content: "\f067"; }
+	#accordion .panel-body{
+		padding: 0 30px 15px;
+		border: none;
+		font-size: 14px;
+		color: #305275;
+		line-height: 28px;
+	}
+	
+	
+	
+	
+	.{
+		margin:0;
+	padding: 0;
+}
+.a
+{
+	text-decoration: none;
+}
+.a:hover
+{
+	text-decoration: none;
+}
+.ul
+{
+	list-style-type: none;
+}
+.body
+{
+	background:rgba(255, 255, 255, 1.0);
+}
+.nv
+{
+	position: relative;
+	background: rgba(51,51,51,1.00);
+	box-shadow: 10px 10px 26px 13px rgba(21,23,25,0.80);
+	width: 100%;
+	z-index: 2;
+}
+.nv ul
+{
+	padding: 0;
+	margin: 0;
+	height: 60px;
+	width: auto;
+	overflow: hidden;
+}
+.nv li{
+	float: left;
+}
+.nv li a
+{
+	height: 60px;
+	line-height: 30px;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 25px;
+	transition: background 0.2s;
+}
+.nv li a:hover
+{
+	background: rgba(67,67,67,1.00);
+}
+
+
+
+
+
+
+body,ul {
+	padding: 0;
+	margin: 0;
+	
+}
+ul {
+	list-style: none;
+}
+.wrap {
+	position: relative;
+	width: 1200px;
+	height: 360px;
+	margin: 100px auto;
+}
+.content {
+	position:absolute;
+	width: 1200px;
+	height: 360px;
+}
+.content li{
+	position: absolute;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+.wrap a {
+	position: absolute;
+	display: none;
+	z-index: 2;
+	top: 50%;
+	width: 60px;
+	height: 60px;
+	margin-top: -30px;
+	font: 36px/60px "宋体";
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	background: rgb(255, 100, 0);
+	background: rgba(255, 100, 0, .6);
+	transition: background 1s ease;
+}
+.wrap a:hover {
+	background: rgb(255, 100, 0);
+}
+.prev {
+	left: 60px;
+}
+.next {
+	right: 60px;
+}
+
+
+
+

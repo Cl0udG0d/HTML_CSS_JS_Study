@@ -1,0 +1,626 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>论坛页面</title>
+<head>
+ <link rel="stylesheet" type="text/css" href="bootstrap.min.css"/>
+ <link rel="stylesheet" type="text/css" href="论坛.css"/>
+ <link rel="stylesheet" type="text/css" href="css/commonstyle.css"/>
+ <link rel="stylesheet" type="text/css" href="bootstrap-grid.min.css"/>
+ <!--图标样式-->
+<link rel="stylesheet" href="http://jrain.oscitas.netdna-cdn.com/tutorial/css/fontawesome-all.min.css">
+<link rel="stylesheet" type="text/css" href="owl.carousel.min.css"/>
+<link rel="stylesheet" type="text/css" href="reset.css"/>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+ <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+ <script type="text/javascript" src="bootstrap.min.js"></script><script type="text/javascript" src="owl.carousel.min.js"></script>
+ <script type="text/javascript" src="论坛.js"></script>
+  <script>
+    $(document).ready(function(){
+        $('#gotop').click(function(){
+            $('html,body').animate({scrollTop:0},'slow');
+        });
+    });
+	
+
+</script>
+</head>
+<body class="all">
+<div id="menubar" class="nv">
+			<ul style="margin-bottom:70px;">
+			<li><a href="">首 页</a></li>
+				<li><a href="">抗疫指南</a></li>
+				<li><a href="">交流论坛</a></li>
+				<li><a href="">时间线</a></li>
+				<li><a href="">支 持 我 们</a></li>
+				<li class="account"><a  onMouseOver="displayMenu()" onMouseOut="hideMenu()" href="">用 户</a></li>
+			</ul>
+		</div>
+<div class="plcall">
+<br /><br />
+<div class="wrap" id="wrap">
+	<ul class="content"></ul>
+	<a href="javascript:;" class="prev">&#60;</a>
+	<a href="javascript:;" class="next">&#62;</a>
+</div>
+
+<script>
+	$(document).ready(function() {
+		$("#news-slider").owlCarousel({
+			items:3,
+			itemsDesktop:[1199,2],
+			itemsDesktopSmall:[980,2],
+			itemsMobile:[600,1],
+			pagination:false,
+			navigationText:false,
+			autoPlay:true
+		});
+	});
+</script>
+<div class="container">
+
+	<div>
+		<div class="col-md-12">
+			<div id="news-slider" class="owl-carousel">
+				<div class="post-slide">
+					<div class="post-img">
+						<a href="#"><img src="img/2.png" alt=""></a>
+					</div>
+					<div class="post-content">
+						<h3 class="post-title"><a href="#">Latest News Post</a></h3>
+						<p class="post-description">
+							
+                            在走廊检查。
+						</p>
+						<ul class="post-bar">
+							<li><i class="fa fa-calendar"></i> March 3, 2020</li>
+							<li>
+								<i class="fa fa-folder"></i>
+								<a href="#">Mockup</a>
+								<a href="#">Graphics</a>
+								<a href="#">Flayers</a>
+							</li>
+						</ul>
+						<a href="#" class="read-more">read more</a>
+					</div>
+				</div>
+
+				<div class="post-slide">
+					<div class="post-img">
+						<a href="#"><img src="img/1.png" alt=""></a>
+					</div>
+					<div class="post-content">
+						<h3 class="post-title"><a href="#">Latest News Post</a></h3>
+						<p class="post-description">
+							在记录病人信息。
+						</p>
+						<ul class="post-bar">
+							<li><i class="fa fa-calendar"></i> March 3, 2020</li>
+							<li>
+								<i class="fa fa-folder"></i>
+								<a href="#">Mockup</a>
+								<a href="#">Graphics</a>
+								<a href="#">Flayers</a>
+							</li>
+						</ul>
+						<a href="#" class="read-more">read more</a>
+					</div>
+				</div>
+
+				<div class="post-slide">
+					<div class="post-img">
+						<a href="#"><img src="img/3.png" alt=""></a>
+					</div>
+					<div class="post-content">
+						<h3 class="post-title"><a href="#">Latest News Post</a></h3>
+						<p class="post-description">
+							医生们在认真在看病人信息。
+						</p>
+						<ul class="post-bar">
+							<li><i class="fa fa-calendar"></i> March 3, 2020</li>
+							<li>
+								<i class="fa fa-folder"></i>
+								<a href="#">Mockup</a>
+								<a href="#">Graphics</a>
+								<a href="#">Flayers</a>
+							</li>
+						</ul>
+						<a href="#" class="read-more">read more</a>
+					</div>
+				</div>
+
+				<div class="post-slide">
+					<div class="post-img">
+						<a href="#"><img  src="img/4.png" alt=""></a>
+					</div>
+					<div class="post-content">
+						<h3 class="post-title"><a href="#">Latest News Post</a></h3>
+						<p class="post-description">
+							在互相写名字。
+						</p>
+						<ul class="post-bar">
+							<li><i class="fa fa-calendar"></i> March 3 , 2020</li>
+							<li>
+								<i class="fa fa-folder"></i>
+								<a href="#">Mockup</a>
+								<a href="#">Graphics</a>
+								<a href="#">Flayers</a>
+							</li>
+						</ul>
+						<a href="#" class="read-more">read more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<ul>
+<li><a href="default.asp"><br/></a></li>
+<li><a href="news.asp"><br/></a></li>
+<li><a href="contact.asp"><br/></a></li>
+<li><a href="about.asp"><br/></a></li>
+<li><a href="about.asp"><br/></a></li>
+<li><a href="about.asp"><br/></a></li>
+</ul>
+	<div class="row">
+		<div class="col-md-offset-3 col-md-6">
+			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingOne">
+						<h4 class="panel-title">
+							<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								众生
+							</a>
+						</h4>
+					</div>
+					<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+						<div class="panel-body">
+							<p>今天，应巴基斯坦军队请求，经中央军委批准，中国人民解放军派空军飞机向巴基斯坦军队紧急援助防护服等疫情防控物资，
+                            并派出军队抗疫专家组赴巴基斯坦开展防疫工作。抗疫专家组此次乘坐的运-20运输机，为首次赴国外执行非战争军事行动。 </p>
+                            <br/>
+                            <p>2020-4-14 13:59</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingTwo">
+						<h4 class="panel-title">
+							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								高二一
+							</a>
+						</h4>
+					</div>
+					<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+						<div class="panel-body">
+							<p>美国是全世界疫情最严重的国家，纽约是全世界疫情最严重的城市。那么这样严峻的情况下，我们华人的状况是怎么样呢？
+                            据官方统计，在疫情中，确诊和死亡人数最大的族裔是西班牙族裔，第二是非裔，第三是白种人，第四是亚裔、华裔。 </p>
+						 <p>2020-4-15 12:59</p>
+                        </div>
+					</div>
+				</div>
+
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingThree">
+						<h4 class="panel-title">
+							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								西西里
+							</a>
+						</h4>
+					</div>
+					<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+						<div class="panel-body">
+							<p>致敬钟南山院士和抗疫的医护人员#抗疫##抗疫行动# 加油，我爱我的祖国  </p>
+                             <p>2020-4-18 14:23</p>
+						</div>
+					</div>
+				</div>
+			<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingThree">
+						<h4 class="panel-title">
+							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+							蜜蜂家的小丸子	
+							</a>
+						</h4>
+					</div>
+					<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+						<div class="panel-body">
+							<p>近期，临沂市第一书记工作办公室会同市关工委孤贫儿童志愿者服务团，开展“抗疫助学”爱心行动，
+                            帮助解决第一书记任职村贫困孩子上网难、上学难等问题，保障孤贫儿童“停课不停学”，用实际行动助力孩子们健康成长。  </p>
+                             <p>2020-4-19 9:28</p>
+						</div>
+					</div>
+				</div>
+   <div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingFive">
+						<h4 class="panel-title">
+							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+								天下第一锤
+							</a>
+						</h4>
+					</div>
+					<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+						<div class="panel-body">
+							<p>【香港理工大学成功研发，一小时内检测出新型冠状病毒！】这是一种全自动快速多重诊断系统，可在同一测试中，
+                            约一小时内检测出多达四十种引起呼吸道疾病的病原体，包括新型冠状病毒。检测仪器便利，成本较低，有助全方位及早检验。  </p>
+                             <p>2020-4-19 17:39</p>
+						</div>
+					</div>
+				</div>
+   
+    <div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingSix">
+						<h4 class="panel-title">
+							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+								在下是十四
+							</a>
+						</h4>
+					</div>
+					<div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+						<div class="panel-body">
+							<p> 护士说，她支援武汉52天里，接待的第一位患者就离开了世界，当晚他们一组人连做梦都在哭泣。我问她为什么选择支援前线，
+                            她说她在非典时期就定下了学医护以报国的心，现在她只是为了履行她的承诺。当她在准备踏上前线的时候，他的父母正开着车从黑龙江来厦门和她团聚 </p>
+                             <p>2020-4-19 5:17</p>
+						</div>
+					</div>
+				</div>
+   
+   <div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingSeven">
+						<h4 class="panel-title">
+							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+								文章写好了吗
+							</a>
+						</h4>
+					</div>
+					<div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+						<div class="panel-body">
+							<p> 刚到单位，一般是先去一楼卫生间洗手，然后上楼进办公室，开窗通风，摘了口罩再去卫生间洗手。今天二次去卫生间遇到了正在洗碗的同事，
+                            "不好意思，我没戴口罩"，没带口罩的同事答，"没关系"。刚才，我俩又在走廊相遇，都带着口罩[挤眼]都乐了。其实经常这样，出办公室忘带口罩，尤其晚上。 </p>
+                             <p>2020-4-20 19:21</p>
+						</div>
+					</div>
+				</div>
+   <div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingEight">
+						<h4 class="panel-title">
+							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+ 							博物语
+                            </a>
+						</h4>
+					</div>
+					<div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
+						<div class="panel-body">
+							<p> 【世卫组织总干事警告：最糟糕的时刻即将到来】谭德塞表示，新冠病毒是一种非常危险的病毒，
+                            他利用了人与人之间、政党与政党之间、国家与国家之间的分歧。他警告说，如果不能在各国国内以及各国之间加强团结，“最糟糕的时刻即将到来”。 </p>
+                             <p>2020-4-20 18:12</p>
+						</div>
+					</div>
+				</div>
+         <div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingNine">
+						<h4 class="panel-title">
+							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+ 							星星
+                            </a>
+						</h4>
+					</div>
+					<div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
+						<div class="panel-body">
+							<p> 【#成都#发布居民个人防护行为指南】为了保卫来之不易的“抗疫”成果，保卫蓉城平安健康，
+                            疾控专家温馨提示：请市民朋友们，继续保持警惕，做好个人防护，持续“战疫”，常保健康。#抗疫行动# ​ </p>
+                             <p>2020-4-21 20:22</p>
+						</div>
+					</div>
+				</div>
+            <div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingTen">
+						<h4 class="panel-title">
+							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+ 							碧云蓝天
+                            </a>
+						</h4>
+					</div>
+					<div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
+						<div class="panel-body">
+							<p> 武汉火神山医院光建设费用就5个亿以上，还不包括捐赠设备。共收治疗重症、危重症病人3059人。据报道每个重症、危重症病人药品治疗费平均70万元，火神山医院建设费用每个人平摊约为30万元。
+相当于火神山医院平均每个人费用成本约100万元。如果不是国家全部免费治疗，家庭经济负担将何其沉重。 ​ </p>
+                             <p>2020-4-22 12:44</p>
+						</div>
+					</div>
+				</div>
+    <div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingEleven">
+						<h4 class="panel-title">
+					 		<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+ 							岳二新
+                            </a>
+						</h4>
+					</div>
+					<div id="collapseEleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEleven">
+						<div class="panel-body">
+							<p> 守热土，护平安！ ​ </p>
+                             <p>2020-4-22 20:56</p>
+						</div>
+					</div>
+				</div>
+    
+    <div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="heading12">
+						<h4 class="panel-title">
+					 		<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse12" aria-expanded="false" aria-controls="collapse12">
+ 							张三
+                            </a>
+						</h4>
+					</div>
+					<div id="collapse12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading12">
+						<div class="panel-body">
+							<p> 自打解除隔离可以出家门后，感觉在我们大院里走两步都是幸福！ ​ </p>
+                             <p>2020-4-22 21:26</p>
+						</div>
+					</div>
+				</div>
+     <div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="heading13">
+						<h4 class="panel-title">
+					 		<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse13" aria-expanded="false" aria-controls="collapse13">
+ 							李四
+                            </a>
+						</h4>
+					</div>
+					<div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+						<div class="panel-body">
+							<p> 对于抗疫，美国大明白又有了新的想法，就是注射消毒剂以及将紫外线带入人体或者外部照射或者其他方式的操作能杀死病毒，
+                            并且希望和知名的医生交流一下可以用何种方式来实现，热与光这将是世界闻所未闻的重大发现。美国专家：这是一个很好的建议，但并不是一回事[哈哈]#抗疫行动#  ​ </p>
+                             <p>2020-4-22 22:15</p>
+						</div>
+					</div>
+				</div>
+     <div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="heading14">
+						<h4 class="panel-title">
+					 		<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse14" aria-expanded="false" aria-controls="collapse14">
+ 							莲心自然
+                            </a>
+						</h4>
+					</div>
+					<div id="collapse14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading14">
+						<div class="panel-body">
+							<p>  《点绛唇 致敬抗疫勇士》
+                             桃墨斋（情深的莲心自然）
+                        梨雪飞云，朱墙耸立东照。寰宇天晓，金鸡啼春早。
+                  水天碧色，清明雨后俏。歌淇澳，才郎年少，跨马涉远道。
+                          （原创） ​ ​ 
+                               </p>
+                             <p>2020-4-22 23:11</p>
+						</div>
+					</div>
+				</div>
+                <div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="heading15">
+						<h4 class="panel-title">
+					 		<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse15" aria-expanded="false" aria-controls="collapse15">
+ 							然
+                            </a>
+						</h4>
+					</div>
+					<div id="collapse15" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading15">
+						<div class="panel-body">
+							<p>  愿这美丽的世界，早日平安！ ​ 
+                               </p>
+                             <p>2020-4-23 8:34</p>
+						</div>
+					</div>
+				</div>
+               
+          <div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="heading16">
+						<h4 class="panel-title">
+					 		<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse16" aria-expanded="false" aria-controls="collapse16">
+ 							唐堂糖
+                            </a>
+						</h4>
+					</div>
+					<div id="collapse16" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading16">
+						<div class="panel-body">
+							<p>  
+                             ​ 教练打电话叫我去练车，我寻思着驾校这种接触性这么强的行业都开始营业了，
+                             德国疫情这是都好了？上网一查这数据似乎也不是太乐观啊，感觉硬核还是德国人硬核哦。所以问题来了，去不去练车呢？一方面是对新冠的恐惧，另一方面又超级无敌想赶紧拿了驾照买辆车，好难
+                               </p>
+                             <p>2020-4-23 10:33</p>
+						</div>
+					</div>
+				</div>
+                <div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="heading17">
+						<h4 class="panel-title">
+					 		<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse17" aria-expanded="false" aria-controls="collapse17">
+ 							元芳啊
+                            </a>
+						</h4>
+					</div>
+					<div id="collapse17" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading17">
+						<div class="panel-body">
+							<p>  
+                             ​ 至今，雾霾神奇地消失了一大半耶～～[嘻嘻][鼓掌][太阳]
+                               </p>
+                             <p>2020-4-23 11:37</p>
+						</div>
+					</div>
+				</div>
+    <div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="heading18">
+						<h4 class="panel-title">
+					 		<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse18" aria-expanded="false" aria-controls="collapse18">
+ 							谁是谁非
+                            </a>
+						</h4>
+					</div>
+					<div id="collapse18" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading18">
+						<div class="panel-body">
+							<p>  
+                             ​ 武汉加油！！中国人是伟大的民族！！ ​ 
+                               </p>
+                             <p>2020-4-23 12:35</p>
+						</div>
+					</div>
+				</div>
+         <div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="heading19">
+						<h4 class="panel-title">
+					 		<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse19" aria-expanded="false" aria-controls="collapse19">
+ 							米玛
+                            </a>
+						</h4>
+					</div>
+					<div id="collapse19" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading19">
+						<div class="panel-body">
+							<p>  
+                             ​  一起继续抗疫，不要松懈！ ​  ​ 
+                               </p>
+                             <p>2020-4-23 11:37</p>
+						</div>
+					</div>
+				</div>
+     <div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="heading20">
+						<h4 class="panel-title">
+					 		<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse20" aria-expanded="false" aria-controls="collapse20">
+ 							时机
+                            </a>
+						</h4>
+					</div>
+					<div id="collapse20" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading20">
+						<div class="panel-body">
+							<p>  
+                             ​   ​  多少#武汉#人，绝望地躲在家里；
+
+                           以为自己，将被祖国遗弃。
+
+                     多少个日子里，繁华的街道上，空无一人；
+
+                     黄鹤楼，孤立地立在下午的阳光中。
+
+                可祖国母亲，以她强大的实力、战胜病魔的决心，向武汉伸出了救援之手​ 
+                               </p>
+                             <p>2020-4-23 12:21</p>
+						</div>
+					</div>
+				</div>
+    <div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="heading21">
+						<h4 class="panel-title">
+					 		<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse21" aria-expanded="false" aria-controls="collapse21">
+ 							紫菱
+                            </a>
+						</h4>
+					</div>
+					<div id="collapse21" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading21">
+						<div class="panel-body">
+							<p> 
+                            —我们会见于晴空。 ​ 
+                               </p>
+                             <p>2020-4-23 20:07</p>
+						</div>
+					</div>
+				</div>
+    
+    
+    <div class="zdh">
+
+<button type="button" class="button1">发布帖子</button>
+ 
+</div>
+    
+    
+            </div>
+     	</div>
+	</div>
+
+</div>
+</div>
+<div id="gotop" class="m-back" title="回到顶部"><a href="#"></a></div>
+</div>
+<!--公共底部-->
+<div class="footer">
+	<div class="footerinner">
+		<ul class="share">
+			<li>
+				<img class="weibo_icon" src="img/头像.png" alt="">
+			</li>
+			<li>
+				<img class="qq_icon" src="img/头像.png" alt="">
+			</li>
+			<li>
+				<img class="twitter_icon" src="img/头像.png" alt="">
+			</li>
+			<li>
+				<img class="wechat_icon" src="img/头像.png" alt="">
+			</li>
+		</ul>
+		<div class="code_wrap">
+			<ul class="code">
+				<li><img class="weibo" src="img/头像2.png" alt=""></li>
+				<li><img class="qq" src="img/头像3.png" alt=""></li>
+				<li><img class="twitter" src="img/头像4.png" alt=""></li>
+				<li><img class="wechat" src="img/头像1.png" alt=""></li>
+			</ul>
+		</div>
+		<div class="footerinfo">
+			<div class="footerinfoTop">
+				<p>#网页设计大赛# @战疫小组：邓雅菲、林海、田柯芸、陈杰所作。</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+/*底部二维码*/
+
+$(".weibo_icon").hover(function(){
+	$(".weibo").fadeIn(500);
+	$(".qq,.twitter,.wechat").fadeOut(0);
+	$(".code_wrap").css("z-index",200);
+},function(){
+	$(".weibo").fadeOut(0);
+	$(".code_wrap").css("z-index",50);
+});
+
+$(".qq_icon").hover(function(){
+	$(".qq").fadeIn(500);
+	$(".weibo,.twitter,.wechat").fadeOut(0);
+	$(".code_wrap").css("z-index",200);
+},function(){
+	$(".qq").fadeOut(0);
+	$(".code_wrap").css("z-index",50);
+});
+$(".twitter_icon").hover(function(){
+	$(".twitter").fadeIn(500);
+	$(".weibo,.qq,.wechat").fadeOut(0);
+	$(".code_wrap").css("z-index",200);
+},function(){
+	$(".twitter").fadeOut(0);
+	$(".code_wrap").css("z-index",50);
+});
+$(".wechat_icon").hover(function(){
+	$(".wechat").fadeIn(500);
+	$(".weibo,.qq,.twitter").fadeOut(0);
+	$(".code_wrap").css("z-index",200);
+},function(){
+	$(".wechat").fadeOut(0);
+	$(".code_wrap").css("z-index",50);
+});
+$(".weibo,.twitter,.wechat").hover(function(){
+	$(this).fadeIn(0);
+	$(".code_wrap").css("z-index",200);
+},function(){
+	$(this).fadeOut(500);
+	$(".code_wrap").css("z-index",50);
+});
+
+</script>
+
+</body>
+</html>
