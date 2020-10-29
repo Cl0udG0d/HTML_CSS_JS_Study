@@ -1,19 +1,37 @@
-*{
-    margin:0px 0px;     /* 到边框的距离 */
+* {
+    margin: 0;
     padding: 0;
-}
+    box-sizing: border-box;
+    font-family: Helvetica, "PingFag SC", "Microsoft YeHei", sans-serif;
+  }
 
 body {
     margin-top: -1px;
 }
+  img {
+    width: 100%;
+  }
+  
+  .home{
+    position: relative;
+    /* top: -10px; */
+    z-index: 50;
+  }
 
-.test-box{
+  .photo-list{
+    display: flex;
+    width: 300%;
+    /* align-items: center; */
+  }
+  .car-photo {
+    justify-content: center;
     height: 100%;
+  }
+
+.car-photo img {
     width: 100%;
-}
-.test-box-1{
-    height: 626px;
-    width: 100%;
-    background-position: top center;
-    background-image:url("../images/1.jpg");
+  height: 100vh;
+  /* height: 100%; */
+  object-fit: none;
+  /* object-position: left top; */
 }
