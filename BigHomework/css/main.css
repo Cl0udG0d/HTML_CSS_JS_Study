@@ -11,27 +11,215 @@ body {
   img {
     width: 100%;
   }
-  
-  .home{
-    position: relative;
+
+a{
+  text-decoration:none;
+}
+.loop-wrap {
+  /* position: relative;
     /* top: -10px; */
-    z-index: 50;
-  }
+    /* z-index: 50; */ 
+}
 
-  .photo-list{
-    display: flex;
-    width: 300%;
-    /* align-items: center; */
-  }
-  .car-photo {
-    justify-content: center;
-    height: 100%;
-  }
+.loop-images-container{
+  position: relative;
+  z-index: -1;
+  width: 500%;
+  top:-20px;
+  display: flex;
+  transform: translate(0,0); /* 初始位置位移 */
+  animation: loop 12s linear infinite;
+}
 
-.car-photo img {
-    width: 100%;
+/* 创建loop动画规则 */
+/* 
+ 轮播5张，总耗时10s，单张应为2s(20%)
+ 单张切换动画耗时500ms，停留1500ms
+*/
+@keyframes loop {
+    0% {transform: translate(0,0);}
+    15% {transform: translate(0,0);} /* 停留1500ms */
+
+    20% {transform: translate(-20%,0);} /* 切换500ms 位移-20% */
+    35% {transform: translate(-20%,0);}
+
+    40% {transform: translate(-40%,0);}
+    55% {transform: translate(-40%,0);}
+
+    60% {transform: translate(-60%,0);}
+    75% {transform: translate(-60%,0);}
+
+    80% {transform: translate(-80%,0);}
+    95% {transform: translate(-80%,0);}
+
+    100% {transform: translate(0,0);} /* 复位到第一张图片 */
+}
+
+.loop-image{
+  justify-content: center;
+  width: 100vw;
+}
+.loop-image img{
+  width: 100%;
   height: 100vh;
-  /* height: 100%; */
-  object-fit: none;
-  /* object-position: left top; */
+  object-fit: cover;
+}
+.head{
+  display: block;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  background-color: black;
+}
+
+.blogname{
+  margin-left: 50px;
+  width: 500px;
+  margin-right: 0px;
+  margin-top: 10px;
+  position: absolute;
+  height: 40px;
+}
+.blogname p{
+  color:#c9cacc;;
+  font: 12px/1.5 Tahoma,Helvetica,Arial,'宋体',sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.navbox{
+  margin-left: 700px;
+  width: 700px;
+  margin-right: 0px;
+  margin-top: 20px;
+  position: absolute;
+}
+.navbox a{
+  margin-right: 20px;
+}
+
+.title{
+  background-color: black;
+  width: 50%;
+  height: 40%;
+margin-left: 25%;
+  text-align: center;
+  transform: translateY(400px);
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 1.4em;
+  color: #eee;
+}
+
+.title:hover {
+  text-shadow: 0 0 .1em,0 0 .3em;
+}
+a:link{
+  color: white;
+}
+a:visited{
+  color: white;
+}
+
+
+.avatar-user {
+  border-radius: 50%!important;
+}
+.avatar {
+  display: inline-block;
+  overflow: hidden;
+  line-height: 1;
+  vertical-align: middle;
+  border-radius: 6px;
+}
+
+.left-body {
+  margin-top: 70px;
+}
+#search {
+  color: #2bbc8a;
+}
+
+
+#blogpage {
+  margin-top: 40px;
+}
+
+.blogpage-ul a {
+  font-size: 20px;
+  font-family: 宋体
+}
+
+.blogpage-ul p {
+  font-size: 15px;
+  font-family: 宋体
+}
+.blogpage-ul {
+  list-style-type:none;
+}
+.left-body {
+  /* margin-left: 40px;
+  margin-right: 40px;
+  text-align:left;
+  float: left;
+  clear: left;
+  overflow:hidden; */
+  float: left;
+  width: 220px;
+  margin-left: 40px;
+  margin-right: -100%;
+}
+
+.right-body {
+  margin-right: 40px;
+  margin-left: 300px;
+  clear: right;
+  float: right;
+}
+
+.right-body-img{
+  width: 300px;
+  height: 300px;
+}
+.right-body-img img{
+  object-fit: cover
+}
+
+
+
+
+
+
+
+
+.footer-left {
+  margin-left: 40px;
+  clear: left;
+  float: left;
+}
+.footer-left p{
+  font-weight: bold;
+}
+.footer-right {
+  margin-right: 60px;
+  clear: right;
+  float: right;
+}
+.footer-right-ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  font-size:20px;
+  overflow:hidden;
+}
+.footer-right-ul li {
+  float:right;
+}
+
+.footer-right-ul a {
+  display: block;
+  color: black;
+  width: 90px;
+  font-weight: bold;
+  font-family: 楷体
 }
