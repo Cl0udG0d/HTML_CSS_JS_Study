@@ -23,7 +23,7 @@ a{
 
 .loop-images-container{
   position: relative;
-  z-index: -1;
+  z-index: -2;
   width: 500%;
   top:-20px;
   display: flex;
@@ -70,6 +70,7 @@ a{
   position: fixed;
   width: 100%;
   background-color: black;
+  z-index: 999;
 }
 
 .blogname{
@@ -100,20 +101,33 @@ a{
 .title{
   background-color: black;
   width: 50%;
-  height: 40%;
-margin-left: 25%;
-  text-align: center;
+  margin-left: 25%;
+  opacity: 0.75;
+  height: 60px;
   transform: translateY(400px);
+  text-align: center;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   font-size: 1.25rem;
   line-height: 1.4em;
   color: #eee;
+  z-index: -1;
 }
 
+.title p{
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 18px;
+}
 .title:hover {
   text-shadow: 0 0 .1em,0 0 .3em;
 }
+.next-page{
+  position: absolute;
+  margin-left: 47.5%;
+  transform: translateY(490px);
+}
+
 a:link{
   color: white;
 }
@@ -122,6 +136,11 @@ a:visited{
 }
 
 
+
+.main-body{
+  height: 2000px;
+  width: 100%;
+}
 .avatar-user {
   border-radius: 50%!important;
 }
@@ -133,9 +152,7 @@ a:visited{
   border-radius: 6px;
 }
 
-.left-body {
-  margin-top: 70px;
-}
+
 #search {
   color: #2bbc8a;
 }
@@ -157,22 +174,44 @@ a:visited{
 .blogpage-ul {
   list-style-type:none;
 }
+
 .left-body {
-  /* margin-left: 40px;
-  margin-right: 40px;
-  text-align:left;
   float: left;
-  clear: left;
-  overflow:hidden; */
-  float: left;
-  width: 220px;
+  width: 20%;
+  height: 1800px;
+  margin-top: 20px;
   margin-left: 40px;
-  margin-right: -100%;
+  /* margin-right: -100%; */
+  background-color: green;
+}
+.left-body .name{
+  margin-top: 15px;
+  text-align: center;
+}
+.left-body .blog-talk{
+  margin-top: 10px;
+  text-align: center;
+}
+.left-body .blog-count{
+  margin-top: 15px;
+  text-align: center;
 }
 
+.left-body .blog-message{
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.blog-message p{
+  font-weight: bold;
+  font-family: 楷体
+}
+
+
 .right-body {
-  margin-right: 40px;
-  margin-left: 300px;
+  width: 71%;
+  margin-top: 20px;
+  margin-right: 50px;
+  background-color: greenyellow;
   clear: right;
   float: right;
 }
@@ -191,7 +230,12 @@ a:visited{
 
 
 
-
+.footer{
+  width: 100%;
+  height: 164px;
+  margin-top: 0px;
+  background-color: gray;
+}
 .footer-left {
   margin-left: 40px;
   clear: left;
@@ -214,6 +258,7 @@ a:visited{
 }
 .footer-right-ul li {
   float:right;
+
 }
 
 .footer-right-ul a {
