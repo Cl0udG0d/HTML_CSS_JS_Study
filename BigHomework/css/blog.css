@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, "PingFag SC", "Microsoft YeHei", sans-serif;
+  }
+
+body {
+    margin-top: -1px;
+    background-color: white;
+}
+
+a:link{
+    color: white;
+  }
+  a:visited{
+    color: white;
+  }
+  a{
+    text-decoration:none;
+  }
+  
+.head{
+    display: block;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    z-index: 999;
+  }
+  
+  #obtn{
+    background-color: gray; /* Green */
+    border: none;
+    color: white;
+    padding: 25px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    opacity: 0.75;
+}
+  .blogname{
+    margin-left: 50px;
+    width: 500px;
+    margin-right: 0px;
+    margin-top: 10px;
+    position: absolute;
+    height: 40px;
+  }
+  .blogname p{
+    color:#c9cacc;;
+    font: 12px/1.5 Tahoma,Helvetica,Arial,'宋体',sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .navbox{
+    margin-left: 700px;
+    width: 700px;
+    margin-right: 0px;
+    margin-top: 20px;
+    position: absolute;
+  }
+  .navbox a{
+    margin-right: 20px;
+  }
+
+
+
+  .main-body{
+    height: 4900px;
+    width: 100%;
+  }
+  .main-body .blog-image{
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+  }
+  .blog-image img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .blog-title-content{
+    width: 100%;
+    transform: translateY(365px);
+    font-family: 'Noto Serif SC', 'Source Han Serif SC', 'Source Han Serif', source-han-serif-sc, 'PT Serif', 'SongTi SC', 'MicroSoft Yahei', Georgia, serif;
+    margin-left: 300px;
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    
+    /* z-index: -1; */
+  }
+  .blog-title-content p{
+    position: absolute;
+    margin-left: 25%;
+  }
+.main-body .main-content{
+    overflow: hidden;
+    margin-top: 40px;
+    width: 70%;
+    margin-left: 15%;
+    height: 4500px;
+    background-color: white;
+    font-family: 'Noto Serif SC', 'Source Han Serif SC', 'Source Han Serif', source-han-serif-sc, 'PT Serif', 'SongTi SC', 'MicroSoft Yahei', Georgia, serif;
+    color: #404040;
+    font-size: 15px;
+    line-height: 1.5;
+    text-shadow: 0 0 1px rgba(0, 0, 0, .1);
+}
+.main-body .main-content a{
+    color: blue;
+}
+
+
+
+
+
+  .footer{
+    width: 100%;
+    height: 140px;
+    margin-top: 0px;
+    text-align: center;
+    background-color: black;
+  }
+  .footer .footer-title{
+    line-height: 3.6;
+    font-size: 18px;
+    color: white;
+    font-family: "Menlo", "Meslo LG", monospace;
+    font-weight: 400;
+  }
+  .footer .footer-content{
+    line-height: 0.6;
+    font-size: 14px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  }
+  .footer .footer-images{
+    margin-top: 15px;
+  }

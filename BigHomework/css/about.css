@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, "PingFag SC", "Microsoft YeHei", sans-serif;
+  }
+
+body {
+    margin-top: -1px;
+    background-color: white;
+}
+a:link{
+    color: white;
+  }
+  a:visited{
+    color: white;
+  }
+  a{
+    text-decoration:none;
+  }
+
+  .head{
+    display: block;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    z-index: 999;
+  }
+  
+  #obtn{
+    background-color: gray; /* Green */
+    border: none;
+    color: white;
+    padding: 25px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    opacity: 0.75;
+}
+
+  .blogname{
+    margin-left: 50px;
+    width: 500px;
+    margin-right: 0px;
+    margin-top: 10px;
+    position: absolute;
+    height: 40px;
+  }
+  .blogname p{
+    color:#c9cacc;;
+    font: 12px/1.5 Tahoma,Helvetica,Arial,'宋体',sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .navbox{
+    margin-left: 700px;
+    width: 700px;
+    margin-right: 0px;
+    margin-top: 20px;
+    position: absolute;
+  }
+  .navbox a{
+    margin-right: 20px;
+  }
+
+
+
+  .main-body{
+    height: 1200px;
+    width: 100%;
+  }
+  .main-body .about-image{
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+  }
+  .about-image img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .about-title-content{
+    width: 50%;
+    margin-left: 25%;
+    opacity: 0.75;
+    height: 60px;
+    transform: translateY(200px);
+    text-align: center;
+    font-family: 'Noto Serif SC', 'Source Han Serif SC', 'Source Han Serif', source-han-serif-sc, 'PT Serif', 'SongTi SC', 'MicroSoft Yahei', Georgia, serif;
+    line-height: 1.4em;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    /* z-index: -1; */
+  }
+  .about-title-content p{
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 18px;
+  }
+
+.about-content{
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+}
+.springbird-content{
+    margin-left: 20%;
+}
+  .about-content .spring-cl0ud{
+      text-align: center;
+      font-size: 50px;
+      color: #404040;
+      font-family: 'Noto Serif SC', 'Source Han Serif SC', 'Source Han Serif', source-han-serif-sc, 'PT Serif', 'SongTi SC', 'MicroSoft Yahei', Georgia, serif;
+      text-shadow: 0 0 1px rgba(0, 0, 0, .1);
+      line-height: 3;
+    }
+.about-content .spring-name{
+    text-align: left;
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace!important;
+    font-size: 15px
+}
+.about-content .spring-talk{
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    font-size: 0.8em;
+    margin-top: 8px;
+}
+.about-content .spring-content{
+    margin-top: 8px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    font-size: 15px;
+}
+.about-content .spring-things-title{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    font-size: 1.25em;
+    font-weight: 600;
+    margin-top: 12px;
+}
+.about-content .spring-last{
+    margin-top: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    color: gray;
+    font-weight: 600;
+    font-size: 14px;
+    font-style: italic;
+}
+.about-content .spring-footer{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 140px;
+    margin-top: 0px;
+    text-align: center;
+    background-color: black;
+  }
+  .footer .footer-title{
+    line-height: 3.6;
+    font-size: 18px;
+    color: white;
+    font-family: "Menlo", "Meslo LG", monospace;
+    font-weight: 400;
+  }
+  .footer .footer-content{
+    line-height: 0.6;
+    font-size: 14px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  }
+  .footer .footer-images{
+    margin-top: 15px;
+  }
