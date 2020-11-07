@@ -38,7 +38,14 @@
     <div class="title">
         <p>“桃李春风一杯酒，江湖夜雨十年灯”</p>
     </div>
-    <div class="next-page">
+    <div class="next-page" id="next_page">
+        <script>
+            // 参考自 https://www.jianshu.com/p/82d4711cfe87
+            var btn = document.getElementById('next_page')
+            btn.addEventListener('click',function(){
+            location.href = "#main-body";  
+            },false);
+        </script>
         <svg t="1604108525749" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1795" width="50" height="50"><path d="M858.229333 382.901333L514.453333 674.602667 170.666667 382.901333 196.896 352 514.453333 621.44 832 352z" fill="#e6e6e6" p-id="1796"></path></svg>
     </div>
     <div class="loop-wrap">
@@ -60,7 +67,7 @@
             </div>
         </div>
     </div>
-    <div class="main-body">
+    <div class="main-body" id="main-body">
         <div class="left-body">
             <div class="left-body-img">
                 <img style="height:auto;" alt="" width="260" height="260" class="avatar avatar-user" src="https://springbird.oss-cn-beijing.aliyuncs.com/blog45556496.jpg">
