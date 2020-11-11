@@ -1,0 +1,51 @@
+
+
+body {
+    font-family: 楷体;
+    font-size: 16px;
+    background-color: #ededed;
+}
+
+a{
+    color: #0000FF;
+    text-decoration:none;
+
+  }
+.p{
+    text-indent: 1.75em;
+    line-height: 1.4em;
+}
+ul li{
+    list-style-type:none;
+}
+.logo{
+    background-color: #0A435E;
+    font-size: 1.5em;
+}
+.logo h3{
+    color: greenyellow;
+    font-size: 1.7em;
+    letter-spacing: 0.1em;
+    word-spacing: 0.1em;
+}
+.contentarea h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    word-spacing: 0.01em;
+}
+.contentarea span{
+    color: red;
+}
+.contentarea a{
+    color: saddlebrown;
+    font-weight: 200;
+}
+
+.navigation{
+    width: 50%;
+    line-height: 30px;
+}
+.homepagefooter p{
+    text-align: center;
+}
